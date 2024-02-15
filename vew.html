@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <title>  فاتورة</title>
+     <!-- CSS ملف-->
+     <link rel="stylesheet" type="text/css" href="JS/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="css/cover.rtl.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=mbc" />
+     <link rel="stylesheet" type="text/css" href="m" >
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+ </head>
+ <body>
+    
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" id="downpdf">
+        
+     <table class="tem" id="stdlist" style="background-color: white;">
+                  
+            <div class="hed">
+                <img src="ab.jpg" alt="">
+                <h2>فاتورة ضريبة مبسطة</h2>
+            </div>
+                   
+                  <div class="row">
+                        <div class="tet">
+                            <h2>محطة بتروماكس</h2>
+                            <h3>جدة - Register A</h3>
+                            <label> الرقم الضريبي <input type="text"  name="tsub" id="tsub" placeholder="311046545500003"></label>
+                            <label id="noiv">رقم الفاتورة <input type="text" placeholder="33333333333333"></label>
+                            <label>تاريخ الفاتورة <p></p></label>
+                            <input type="datetime" class="data" placeholder="33333333333333">
+                            <label>نوع الفاتورة <input type="text" placeholder="فاتورة بيع"></label>
+                      </div>
+                            <div class="tem">
+                               
+                                <label> اسم المستخدم  <label class="usnm">petromax</label></label>
+                                <label>اسم العميل </label>
+                                <input type="text" class="namc" placeholder="33333333333333">
+                                 <label> الرقم الضريبي للعميل </label>
+                                     <input type="text" class="noc" placeholder="33333333333333">
+                                    
+                               <label> عنوان موقع العميل <input type="text" placeholder=""></label>
+                           
+                               <textarea name="" id="addc" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div class="barcode">
+                               
+                            <img src="bar.png" alt="">
+                           
+                         </div>
+                      </div>
+          </table>
+    
+                        <!--Row-2-->
+                 <table class="list" id="stdlist" style="background-color: white;">
+                      
+                        <tr>
+                            <th class="cam">كمية</th>
+                            <th> اسم المنتج </th>
+                            <th> السعر <p></p> <span>(غير شامل الضريية)</span></th>
+                            <th> الاجمالي<p></p> <span>(غير شامل الضريية)</span></th>
+                            <th> الاجمالي <p></p><span>(بعد اضافة الضريية)</span></th>
+                            
+                        </tr>
+                        <tr class="count">
+                            <th class="cams"><input type="text" placeholder="1"></th>
+                            <th class="tams"><input type="text" placeholder="ديزل"></th>
+                            <th class="tams"><input type="text" placeholder="1111"></th>
+                            <th class="tams"><input type="text" placeholder="1111"></th>
+                            <th class="tams"><input type="text" placeholder="1111"></th>
+                       
+                        </tr>   
+             </table>
+
+                <div class="egel">
+                       
+                    <label>  اجمالي العناصر  </label>
+                    <label class="egel2">  1  </label>
+            </div>
+
+            <div class="egsh1">
+                       
+                <label> الاجمالي غير شامل الضريية   <input type="text" placeholder="33333333333333"></label>  
+           </div>
+                    <div class="egsh">
+                       
+                        <label id="dec">اجمالي الخصم   <input type="text" placeholder="0 ر.س"></label>
+                         <label>   عروض ترويجية <input type="text" placeholder="0 ر.س"></label>
+                       <label>  الخصومات الاخرى  <input type="text" placeholder="0 ر.س"></label>
+                       
+                </div>
+                <div class="egsh">
+                    <label id="TaxV"> قيمة الضريبة   <input type="text" placeholder="33333333333333"></label>
+                    <label id="T15V"> قيمة الضريبة المضافة (15%)   <input type="text" placeholder="33333333333333"></label>
+  
+                 </div>
+
+            <div class="egsh2">     
+                <label> الاجمالي   (شامل الضريبة)   <input type="text" placeholder="33333333333333"></label>
+
+            </div>
+            <div class="egsh">
+                       
+                <label id="T15V">  المبلغ المدفوع (بطاقة ائتمانية)   <input type="text" placeholder="33333333333333"></label>
+                  <input id="pay" type="text" placeholder="pay">
+               
+             </div>
+        <div class="footer">
+            <h3>جدة - 4764</h3> 
+            <h3>الملك خالد - الجنوبي</h3>
+            <h3>جدة , 22234 - السعودية</h3>
+            <h3 >رخصة استثمار تجاري</h3>
+            <h3 >  Trading Investment License</h3>
+            <h3>(114074211106938)</h3>
+        </div>
+             <div class="end">
+                 <h3></h3>
+                 <h3></h3>
+               
+         </div>  
+          
+    </div>
+    
+    <!-- JS File-->
+    <script src="JS/script.js">  </script>
+      
+ </body>
+ 
+ </html>
