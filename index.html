@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--الاسم-->
+    <title>ادخال بيانات الطلاب</title>
+     <!-- CSS ملف-->
+    <link rel="stylesheet" href="css/style.css">
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+	<CENTER><h2>سجل الطلاب</h2></CENTER>
+    <!--الجدول-->
+    <table>
+        <!--الصف-1-->
+        <tr>
+            <!--العمود-1-->
+            <td>
+<!--Form بدايه-->
+<form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+    <h3>شاشه الادخال</h3>
+  <!--div-1-->
+    <div>
+        <label>الاسم بالكامل</label>
+        <!--اذا لم تدخل البيانات بالكامل-->
+        <label class="validation-error hide" id="userNamevalidationError">عليك  ادخال كافه البيانات</label>
+        <!--ادخل الاسم-->
+        <input type="text" name="userName" id="userName" placeholder="  ادخل الاسم">
+    </div>
+    <!--div-2-->
+    <div>
+        <label>السنه الدراسيه</label>
+        <!--اذا لم تدخل البيانات بالكامل-->
+        <label class="validation-error hide" id="rollNovalidationError" >عليك  ادخال كافه البيانات</label>
+        <!--ادخل السنه الدراسيه-->
+        <input type="date" name="rollNo" id="rollNo" placeholder="ادخل السنه الدراسيه ">
+    </div>
+    <!--div-3-->
+    <div>
+          <br>
+        <label>الفصل الدراسي</label>
+        <!--اذا لم تدخل البيانات بالكامل-->
+        <label class="validation-error hide" id="stdClassvalidationError">عليك  ادخال كافه البيانات</label>
+       <!--ادخال البيانات-->
+        <input type="text" name="stdClass" id="stdClass" placeholder="ادخل الفصل الدراسي ">
+    </div>
+    <!--div-4-->
+    <div>
+      
+       <!--اذا لم تدخل البيانات بالكامل-->
+        <label>رقم الموبايل</label>
+        <label class="validation-error hide" id="tsubvalidationError">عليك  ادخال كافه البيانات</label>
+        <!--ادخل رقم الموبايل-->
+        <input type="text" name="tsub" id="tsub" placeholder=" ادخل رقم الموبايل">
+    </div>
+    <!--div-5-->
+    <div>
+        <label>العمر</label>
+        <!--Validation Error-->
+        <label class="validation-error hide" id="agevalidationError">عليك  ادخال كافه البيانات</label>
+        <!--Input Age-->
+        <input type="number" name="age" id="age" placeholder=" ادخل العمر">
+    </div>
+    <!--div-6-->
+    <div class="form-action-buttons">
+        <!--Input Button-->
+        <input type="submit" value="ادخال">
+        <button><a href="vew.html">حفظ</a></button>
+    </div>
+  </form>
+
+   </td>
+     
+            <!--Column-2-->
+            <div class="contener">
+            <td>
+                <!--Nested Table-->
+             
+                <table class="list" id="stdlist" style="background-color: #81d6ab;">
+                    <!--جدول عرض البيانات-->
+                    <div class="hed">
+                        <img src="ab.jpg" alt="">
+                    </div>
+                    <thead>
+                        <!--Row-2-->
+                        <tr>
+                            <th>الاسم</th>
+                            <th> السنه الدراسيه</th>
+                            <th>الفصل الدراسي</th>
+                            <th>رقم الموبايل</th>
+                            <th>العمر</th>
+                            <th>تحرير</th>
+                        </tr>
+                    </thead>
+                    
+                    <!--نهايه جدول عرض البيانات-->
+                    <tbody>
+                    </tbody>
+                </table>
+            </div> 
+            </td>
+            <button id="dl-pdf">تنزيل</button>
+    </tr>
+    
+    
+
+    <!-- JS File-->
+    <script src="JS/script.js"></script>
+</body>
+</html>
