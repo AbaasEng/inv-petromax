@@ -585,26 +585,65 @@ label.validation-error{
             #addc {
                 margin-top: 3px;
             }
+            .cover-container {
+                max-width: 80rem;
+            }
             
 }
 
 @media (max-width: 462px) {
-    .home-content h1 {
-        font-size: 5.2rem;
+    .barcode img{
+        width: 94%;
+        height: 10rem;  
     }
-    .education {
-        padding: 10rem 4% 5rem 5%;
+   
+     h3 {
+        display: flex;
+        
+        font-size:12px;
+        }
+        .tet label h3 {
+            display: flex;
+            flex-direction: column;
+            font-size:3rem;
+            }.home-sci {
+        width: 160px;
     }
-    .contact form .input-box .input-field {
-        width: 100%;
-    }
-    .footer {
-        flex-direction: columu-reverse;
-    }
-    .footer p {
-        margin-top: 2rem;
-        text-align: center;
-    }
+    .tem label  {
+        display: flex;
+        flex-direction: column;
+        font-size:2rem;
+        }
+        .tem {
+            padding-right: 0rem;
+        }
+        .tet label  {
+            display: flex;
+            flex-direction: column;
+            font-size:2rem;
+            }
+            .tet label input {
+                width: 15rem;
+              margin-right: 10rem;
+              font-size: 12px;
+            }
+            .tem label input {
+                width: 11rem;
+                margin-right: 12rem;
+                margin-top: -2rem;
+                height: 17px;
+                font-size: 13px;
+            }
+            .usnm {
+                margin-right: 75px;
+                margin-top: -8px;
+            }
+            input {
+                font-size:10px;
+            }
+            #addc {
+                margin-top: 3px;
+            }
 }
 
 @media (max-width: 371px) {
