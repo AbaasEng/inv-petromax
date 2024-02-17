@@ -497,12 +497,12 @@ label.validation-error{
                 padding-bottom:18px;
             }
             .egsh1 label {
-                margin-top: -16px;
-                width: 92px;
+                margin-top: -11px;
+                font-size: 20px
             }
             .egsh1 label input {
                 margin-top: 6px;
-                margin-right: 1rem;
+                margin-right: 0rem;
                 width: 92px;
             }
             .egsh2 label {
