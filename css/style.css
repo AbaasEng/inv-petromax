@@ -350,16 +350,10 @@ padding-right: 1rem;
 }
 
 input[type=text], input[type=number], input[type=data] {
-    width: 100%;
-    padding: 2px 3px;
-    
-    display: inline-block;
+   
     border: 0px solid #fff;
     border-radius: 4px;
-    box-sizing: border-box;
-    direction: rtl;
-    font-family: unset;
-    font-weight: bold;
+  
 
 }
 
@@ -437,7 +431,7 @@ label.validation-error{
         font-weight: bold;
         }
         h2 {
-            font-size:26px;
+            font-size:30px;
             }
         .tet label h3 {
             display: flex;
