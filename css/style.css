@@ -500,6 +500,7 @@ label.validation-error{
             }
             .egsh1 label input {
                 margin-top: 12px;
+                margin-right: 1rem;
             }
             .egsh2 label {
                 margin-top: -16px;
@@ -517,7 +518,7 @@ label.validation-error{
         width: 90%;
         height: 19rem;
         margin-right: 2rem;
-        margin-top: 22px;
+        margin-top: 40px;
     } 
     
     .cover-container {
