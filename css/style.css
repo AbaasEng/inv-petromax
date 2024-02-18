@@ -216,19 +216,19 @@ padding-right: 1rem;
     
 }
 .egsh1 label input {
-    width: 10rem;
+    width: 9rem;
     height: 2rem;
     margin: 1rem;
     margin-top: 0rem;
     border: none;
     background: border-box;
     float: inline-end;
-    padding-right: 0rem;
+    padding-right: 2rem;
     text-align: center
 }
 .egsh1 label {
-    font-size: 26px;
-    padding-right: 15rem;
+    font-size: 22px;
+    padding-right: 27rem;
     margin-bottom: 1rem;
     margin-top: -6px;
     text-align: center;
@@ -247,19 +247,19 @@ padding-right: 1rem;
     margin-bottom: -1rem;
 }
 .egsh2 label input {
-    width: 10rem;
+    width: 9rem;
     height: 2rem;
     margin: 1rem;
     margin-top: 0rem;
     border: none;
     background: border-box;
     float: inline-end;
-    padding-right: 0rem;
+    padding-right: 2rem;
     text-align: center
 }
 .egsh2 label {
-    font-size: 25px;
-    padding-right: 18rem;
+    font-size: 22px;
+    padding-right: 29rem;
     margin-bottom: 1rem;
     margin-top: -6px;
     text-align: center;
@@ -288,12 +288,12 @@ padding-right: 1rem;
     border: none;
     background: border-box;
     float: inline-end;
-    padding-right: 0rem;
+    padding-right: 3rem;
     text-align: center;
 }
 .egsh label {
     font-size: 25px;
-    padding-right: 19rem;
+    padding-right: 30rem;
     margin-bottom: 0rem;
     color: black; 
     font-family: 'mbc';
@@ -322,7 +322,7 @@ padding-right: 1rem;
 #pay {
     width: 30%;
     text-align: end;
-    margin-right: 19rem;
+    margin-right: 24rem;
     margin-top: -2rem;
     font-size: 20px;
     
@@ -436,7 +436,7 @@ label.validation-error{
         font-weight: bold;
         }
         h2 {
-            font-size:26px;
+            font-size:30px;
             }
         .tet label h3 {
             display: flex;
@@ -491,7 +491,7 @@ label.validation-error{
                 font-size:16px;
             }
             #pay {
-                margin-right: 25rem;
+                margin-right: 30rem;
             }
             #T15V{
                 padding-bottom:18px;
@@ -516,10 +516,10 @@ label.validation-error{
 
 @media (max-width: 768px) {
     .barcode img{
-        width: 90%;
-        height: 19rem;
-        margin-right: 2rem;
-        margin-top: 40px;
+        width: 17rem;
+        height: 22rem;
+        margin-right: 3rem;
+        margin-top: -18px;
     } 
     
     .cover-container {
