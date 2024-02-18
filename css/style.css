@@ -417,7 +417,7 @@ label.validation-error{
    
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px min-width:700px) {
     .barcode img{
         width: 183%;
         height: 10rem;
@@ -519,100 +519,18 @@ label.validation-error{
 
 @media (max-width: 768px) {
     .barcode img{
-        width: 183%;
-        height: 10rem;
-        margin-right: -4rem;
+        width: 90%;
+        height: 21rem;
+        margin-right: 1rem;
+        margin-top: -26px;
+    } 
+    
+    .cover-container {
+        max-width: 80rem;
     }
-    html {
-        font-size: 60%;
-    }
-    h3 {
-        font-size:15px;
-        font-weight: bold;
+    .egel2 {
+        padding-right: 65rem
         }
-        h2 {
-            font-size:30px;
-            }
-        .tet label h3 {
-            display: flex;
-            flex-direction: column;
-            font-size:3rem;
-        }
-            .home-sci {
-        width: 160px;
-         }
-     .tem label  {
-        display: flex;
-        flex-direction: column;
-        font-size:19px;
-        font-weight: bold;
-        
-     }
-        .tem {
-            padding-right: 0rem;
-        }
-        .tet label  {
-            display: flex;
-            flex-direction: column;
-            font-size:19px;
-            font-weight: bold;
-        }
-            .tet label input {
-                width: 16rem;
-                margin-right: 8rem;
-                font-size: 15px;
-            }
-            .tem label input {
-                width: 11rem;
-                margin-right: 12rem;
-                margin-top: -2rem;
-                height: 17px;
-                font-size: 15px;
-            }
-            .usnm {
-                margin-right: 82px;
-                margin-top: -11px;
-            }
-            input {
-                font-size:15px;
-            }
-            #addc {
-                margin-top: -9px;
-                font-size: 16px;
-                height: 6rem;
-                font-weight: bold;
-            }
-            td, th {
-                font-size:16px;
-            }
-            #pay {
-                margin-right: 25rem;
-            }
-            #T15V{
-                padding-bottom:18px;
-            }
-            .egsh1 label {
-                margin-top: -11px;
-                font-size: 20px;
-                padding-right: 13rem;
-            }
-            .egsh1 label input {
-                margin-top: 6px;
-               
-                width: 92px;
-                float: left;
-            }
-            .egsh2 label {
-                margin-top: -11px;
-                font-size: 20px
-            }
-            .egsh2 label input {
-                margin-top: 6px;
-               
-                width: 92px;
-                float: left;
-            }
-            
   
    
 }
