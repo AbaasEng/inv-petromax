@@ -46,7 +46,7 @@ width: 100%;
     margin-top: -1rem;
     border: aliceblue;
     background: border-box;
-    font-size: 16px;
+    font-size: 19px;
 }
 .tem label input {
     width: 10rem;
@@ -84,11 +84,12 @@ width: 100%;
     width: 101%;
     height: 16rem;
     padding-top: 40px;
+    margin-right: -1rem;
 }
 h3{
     
     color: black;
-    font-size: 18px;
+    font-size: 17px;
     padding-right: 2rem;
     font-family: bay1;
     padding-bottom: 16px;
@@ -153,11 +154,18 @@ td, th {
         color: black;
         background-color: white;
         line-height: 0.6rem;
-        font-size:22px;
+        font-size:21px;
 }
 .cam {
     text-align: center;
+    width: 12%;
 
+}
+.count .tams  input{
+    font-size: 20px;
+}
+.count .cams  input{
+    font-size: 20px;
 }
 .cams {
 width: 10%;
@@ -165,7 +173,7 @@ padding-right: 1rem;
 }
 
 .count td, th {
-    height: 5rem;
+    height: 4.5rem;
 }
 .count td, th span {
 
@@ -231,12 +239,12 @@ padding-right: 1rem;
     border: none;
     background: border-box;
     float: inline-end;
-    padding-right: 2rem;
+    padding-right: 4rem;
     text-align: center
 }
 .egsh1 label {
-    font-size: 22px;
-    padding-right: 25rem;
+    font-size: 23px;
+    padding-right: 24rem;
     margin-bottom: 1rem;
     margin-top: -6px;
     text-align: center;
@@ -262,11 +270,11 @@ padding-right: 1rem;
     border: none;
     background: border-box;
     float: inline-end;
-    padding-right: 2rem;
+    padding-right: 4rem;
     text-align: center
 }
 .egsh2 label {
-    font-size: 22px;
+    font-size: 23px;
     padding-right: 27rem;
     margin-bottom: 1rem;
     margin-top: -6px;
@@ -296,11 +304,12 @@ padding-right: 1rem;
     border: none;
     background: border-box;
     float: inline-end;
-    padding-right: 3rem;
-    text-align: center;
+    padding-right: 4.6rem;
+     text-align: center;
+    
 }
 .egsh label {
-    font-size: 25px;
+    font-size: 23px;
     padding-right: 28rem;
     margin-bottom: 0rem;
     color: black; 
@@ -316,10 +325,10 @@ padding-right: 1rem;
 }
 #dec {
     font-size: 23px;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 #dec input {
-    font-size: 23px;
+   
     margin-right: 2rem;
 }
 #TaxV {
@@ -334,9 +343,11 @@ padding-right: 1rem;
 #pay {
     width: 30%;
     text-align: end;
-    margin-right: 22rem;
+    margin-right: 23rem;
     margin-top: -2rem;
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'mbc';
     
 }
 .footer {
@@ -354,6 +365,7 @@ padding-right: 1rem;
 .footer h3 {
     line-height: 0rem;
     padding-top: 9px;
+    font-size: 19px;
 
 }
 .end {
