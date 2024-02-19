@@ -110,20 +110,22 @@ h2{
     margin-bottom: 20px;
     margin-right: 12px;
     border: aliceblue;
-    width: 61%;
-    font-size: 16px; 
+    width: 100%;
+    font-size: 18px; 
 }
 .noc {
     margin-top: 3px;
     margin-bottom: 19px;
     margin-right: 12px;
-    border: aliceblue; 
+    border: aliceblue;
+    width: 80%; 
 }
 .namc {
     margin-top: 3px;
     margin-bottom: 19px;
     margin-right: 12px;
     border: aliceblue;  
+    width: 90%;
 }
 #addc {
     margin-top: -18px;
@@ -163,10 +165,14 @@ td, th {
 }
 .count .tams  input{
     font-size: 20px;
+    width: 100%;
 }
 .count .cams  input{
     font-size: 20px;
+    width: 100%;
 }
+
+
 .cams {
 width: 10%;
 padding-right: 1rem;
@@ -364,7 +370,7 @@ input[type=text], input[type=number], input[type=data] {
     border: 0px solid #fff;
     border-radius: 4px;
     
-    font-size: 16px;
+    font-size: 18px;
 
 }
 
