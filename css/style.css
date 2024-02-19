@@ -221,11 +221,15 @@ padding-right: 1rem;
 .in label input {
     font-size: 22px;
     padding-right: 4rem;
+    padding-left: 0rem;
+    padding: 0rem;
+    padding-right: 40px;
 
 }
 .in label  {
    
     padding-right: 23rem;
+    margin: 0rem;
 
 }
 .egsh1 {
