@@ -219,8 +219,13 @@ padding-right: 1rem;
     color: black;
 }
 .in label input {
-    font-size: 21px;
-    padding-right: 3rem;
+    font-size: 22px;
+    padding-right: 4rem;
+
+}
+.in label  {
+   
+    padding-right: 23rem;
 
 }
 .egsh1 {
@@ -249,7 +254,7 @@ padding-right: 1rem;
 }
 .egsh1 label {
     font-size: 22px;
-    padding-right: 24rem;
+    
     margin-bottom: 1rem;
     margin-top: -6px;
     text-align: center;
@@ -315,7 +320,7 @@ padding-right: 1rem;
 }
 .egsh label {
     font-size: 23px;
-    padding-right: 27rem;
+    padding-right: 28rem;
     margin-bottom: 0rem;
     color: black; 
     font-family: 'mbc';
@@ -330,12 +335,9 @@ padding-right: 1rem;
 }
 #dec {
     font-size: 21px;
-    margin-right: 3rem;
-}
-#dec input {
    
-    margin-right: 2rem;
 }
+
 #TaxV {
     font-size: 19px;
     margin-right: 4rem;
