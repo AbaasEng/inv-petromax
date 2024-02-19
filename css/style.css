@@ -218,6 +218,11 @@ padding-right: 1rem;
     padding-right: 48rem;
     color: black;
 }
+.in label input {
+    font-size: 21px;
+    padding-right: 3rem;
+
+}
 .egsh1 {
     background-color: white;
     margin-top: 8px;
@@ -239,7 +244,7 @@ padding-right: 1rem;
     border: none;
     background: border-box;
     float: inline-end;
-    padding-right: 4rem;
+   
     text-align: center
 }
 .egsh1 label {
@@ -270,7 +275,7 @@ padding-right: 1rem;
     border: none;
     background: border-box;
     float: inline-end;
-    padding-right: 4rem;
+  
     text-align: center
 }
 .egsh2 label {
@@ -304,7 +309,7 @@ padding-right: 1rem;
     border: none;
     background: border-box;
     float: inline-end;
-    padding-right: 4.6rem;
+   
      text-align: center;
     
 }
