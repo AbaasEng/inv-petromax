@@ -89,10 +89,10 @@ width: 100%;
 h3{
     
     color: black;
-    font-size: 17px;
-    padding-right: 2rem;
-    font-family: bay1;
-    padding-bottom: 16px;
+    font-size: 20px;
+    padding-right:2rem;
+    font-family: 'mbc';
+     padding-bottom: 16px;
 }
 table{
     border-collapse: collapse;
